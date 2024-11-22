@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(175, 207, 127);
+}
+h1 {
+    color: palevioletred;
+}
+
+footer {
+    color: rgb(12, 59, 10);
+    background-color: rgb(175, 207, 127);
+    display: flex;
+    margin-top: 10%;
+    padding-right: 1%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center
+}

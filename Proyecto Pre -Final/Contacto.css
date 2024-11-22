@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color: rgb(12, 59, 10);
+}
+
+header {
+    color: rgb(12, 59, 10);
+    background-color: rgb(175, 207, 127);   
+    padding: 0%;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header ul {
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+header li {
+    display: inline;
+    margin: 2%;
+}
+
+
+footer {
+    color: rgb(12, 59, 10);
+    background-color: rgb(175, 207, 127);
+    display: flex;
+    margin-top: 10%;
+    padding-right: 1%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center
+}
