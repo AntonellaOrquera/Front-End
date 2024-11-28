@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(12, 59, 10);
+}
+
+header {
+    color: rgb(12, 59, 10);
+    background-color: rgb(175, 207, 127);   
+    padding: 0%;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botones-menu {
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+header ul {
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+header li {
+    display: inline;
+    margin: 2%;
+}
+
+
+footer {
+    color: rgb(12, 59, 10);
+    background-color: rgb(175, 207, 127);
+    display: flex;
+    margin-top: 10%;
+    padding-right: 1%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bienvenida-img {
+    height: 600px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+p {
+    max-width: fit-content;
+    margin: auto;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Verdana, serif;
+}
+
+.container {
+    display: grid;
+    padding-top: 2%;
+    grid-gap: 10rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100% 100%;
+    justify-content: center;
+   
+}
+
+.redes-sociales {
+        font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
